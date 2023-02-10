@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "target": "es6",
+      "noImplicitAny": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "sourceMap": true
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
