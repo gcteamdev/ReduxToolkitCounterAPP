@@ -1,12 +1,17 @@
 import * as React from 'react';
 import './App.css';
-import Counter from './components/Counter';
+import Home from './components/Home';
+import Fun from './components/Fun';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-     <h1>Let's count </h1>
-     <Counter />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/fun" element={<Fun />} />
+      </Routes>
     </div>
   );
 }

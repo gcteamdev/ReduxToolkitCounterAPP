@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from "./CounterSlice";
+import userReducer from "./UserSlice"
 
 export const store = configureStore({
   reducer: {
     //created counterReducer a new Reducer now we came to store to add that to our reducer object, name we give counter it could be any string name
     counter: counterReducer,
+    user: userReducer,
   },
 })
 
